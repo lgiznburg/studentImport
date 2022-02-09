@@ -1,0 +1,42 @@
+деканат базы
+
+тест
+postrges
+111Rgmu111
+
+production
+postgres
+123Rgmu456
+
+gld
+111Gld111
+
+
+        <!--<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>-->
+        <!--<property name="driverClassName" value="org.postgresql.Driver"/>-->
+        <!-- testing server -->
+<!--
+        <property name="url" value="jdbc:jtds:sqlserver://192.168.111.45:1433/dfd_decanat"/>
+        <property name="username" value="aos"/>
+        <property name="password" value="321Soa789"/>
+-->
+
+        <!-- production server -->
+<!--
+        <property name="url" value="jdbc:jtds:sqlserver://172.18.1.80:1433/dfd_decanat"/>
+        <property name="username" value="basetest"/>
+        <property name="password" value="123Qwe654"/>
+-->
+        <!-- test server PostgreSQL -->
+<!--
+        <property name="url" value="jdbc:postgresql://192.168.111.45:5432/dfd_decanat_bak"/>
+        <property name="username" value="postgres"/>
+        <property name="password" value="111Rgmu111"/>
+-->
+
+        <!-- production server PostgreSQL -->
+<!--
+        <property name="url" value="jdbc:postgresql://172.18.1.35:5432/dfd_decanat"/>
+        <property name="username" value="postgres"/>
+        <property name="password" value="123Rgmu456"/>
+-->
